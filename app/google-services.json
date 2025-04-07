@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "550147385775",
+    "firebase_url": "https://despedida-arnau-5e636-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "despedida-arnau-5e636",
+    "storage_bucket": "despedida-arnau-5e636.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550147385775:android:71b003344f1562e423275a",
+        "android_client_info": {
+          "package_name": "com.carlescastro.despedidaarnau"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH449yR9WfzeT9I1ytzqfHEz3ua55XQss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
