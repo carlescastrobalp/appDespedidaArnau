@@ -30,6 +30,18 @@
         app:layout_constraintTop_toTopOf="parent" >
 
         <RadioButton
+            android:id="@+id/rbPregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:selectAllOnFocus="true"
+            android:text="Pregunta"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
             android:id="@+id/rbPrueba"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,17 +53,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <RadioButton
-            android:id="@+id/rbPregunta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:selectAllOnFocus="true"
-            android:text="Pregunta"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"  />
 
     </RadioGroup>
 
