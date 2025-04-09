@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.carlescastro.despedidaarnau.modelo.TablaDTO;
 import com.carlescastro.despedidaarnau.utils.ObjetosAdapter;
 import com.google.firebase.Firebase;
 import com.google.firebase.database.DataSnapshot;
@@ -20,7 +21,7 @@ import java.util.List;
 
 public class Llistat extends AppCompatActivity {
 
-    private List<Boolean> booleanListPreguntaOPrueba;
+    private List<TablaDTO> datosBBDD;
     private RecyclerView recyclerView;
     private ObjetosAdapter objetosAdapter;
     private DatabaseReference dataBaseFireStore;
@@ -33,8 +34,8 @@ public class Llistat extends AppCompatActivity {
         recyclerView = findViewById(R.id.recycleViewListado);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        booleanListPreguntaOPrueba = new ArrayList<>();
-        objetosAdapter = new ObjetosAdapter(booleanListPreguntaOPrueba);
+        datosBBDD = new ArrayList<>();
+        objetosAdapter = new ObjetosAdapter(datosBBDD);
         recyclerView.setAdapter(objetosAdapter);
 
         dataBaseFireStore = FirebaseDatabase.getInstance().getReference("objecte");
@@ -47,11 +48,13 @@ public class Llistat extends AppCompatActivity {
         dataBaseFireStore.addValueEventListener(new com.google.firebase.database.ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                booleanListPreguntaOPrueba.clear();
+                datosBBDD.clear();
                 for (DataSnapshot objSnapshot : snapshot.getChildren()) {
                     Boolean preguntaOPrueba = objSnapshot.child("preguntaOPrueba").getValue(Boolean.class);
+                    Integer nivel = objSnapshot.child("nivel").getValue(Integer.class);
                     if (preguntaOPrueba != null) {
-                        booleanListPreguntaOPrueba.add(preguntaOPrueba);
+                        TablaDTO tablaDTO = new TablaDTO(preguntaOPrueba, nivel);
+                        datosBBDD.add(tablaDTO);
                     }
                 }
                 objetosAdapter.notifyDataSetChanged();

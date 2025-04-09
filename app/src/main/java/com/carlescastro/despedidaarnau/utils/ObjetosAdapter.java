@@ -9,33 +9,55 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.carlescastro.despedidaarnau.R;
+import com.carlescastro.despedidaarnau.modelo.TablaDTO;
 
 import java.util.List;
 
 public class ObjetosAdapter extends RecyclerView.Adapter<ObjetosAdapter.ViewHolder> {
 
-    private List<Boolean> listadoPreguntaOPrueba;
+    private List<TablaDTO> listadoDatosBBDD;
 
-    public ObjetosAdapter(List<Boolean> listadoPreguntaOPrueba) {
-        this.listadoPreguntaOPrueba = listadoPreguntaOPrueba;
+    public ObjetosAdapter(List<TablaDTO> listadoDatosBBDD) {
+        this.listadoDatosBBDD = listadoDatosBBDD;
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder (@NonNull ViewGroup parent, int posicion){
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_objeto, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.disenio_linea_datos, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Boolean preguntaOPrueba = listadoPreguntaOPrueba.get(position);
-        holder.textPreguntaOPrueba.setText(preguntaOPrueba ? "Pregunta" : "Prueba");
+        TablaDTO todosLosDatosBBDD = listadoDatosBBDD.get(position);
+
+        //Mostrar si es prueba o pregunta
+        holder.textPreguntaOPrueba.setText(todosLosDatosBBDD.preguntaOPrueba ? "Pregunta" : "Prueba");
+
+        //Cambiar el color del fondo de pantalla segun el nivel
+        int colorId = 0;
+        switch (todosLosDatosBBDD.nivel){
+            case 0:
+                colorId = R.color.gray;
+                break;
+            case 1:
+                colorId = R.color.green;
+                break;
+            case 2:
+                colorId = R.color.yellow;
+                break;
+            case 3:
+                colorId = R.color.red;
+                break;
+        }
+
+        holder.itemView.setBackgroundResource(colorId);
     }
 
     @Override
     public int getItemCount() {
-        return  listadoPreguntaOPrueba.size();
+        return  listadoDatosBBDD.size();
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {

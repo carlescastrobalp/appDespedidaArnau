@@ -33,7 +33,6 @@
             android:id="@+id/rbPregunta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:selectAllOnFocus="true"
             android:text="Pregunta"
             android:focusable="true"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +45,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Prueba"
-            android:focusable="true"
             tools:layout_editor_absoluteX="264dp"
             tools:layout_editor_absoluteY="98dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -66,5 +64,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.868" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupNivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" >
+
+    <RadioButton
+        android:id="@+id/rbNivel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivell baix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/rbNivel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivell mig"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/rbNivel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivell alt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
