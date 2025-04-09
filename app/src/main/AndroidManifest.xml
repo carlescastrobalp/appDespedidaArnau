@@ -29,6 +29,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Llistat"
+            android:exported="true"/>
+
     </application>
 
 </manifest>
