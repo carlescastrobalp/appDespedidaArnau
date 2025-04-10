@@ -2,8 +2,10 @@ package com.carlescastro.despedidaarnau;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -17,7 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class InsertarBaseDatos extends AppCompatActivity {
 
     private RadioGroup radioGroupTipo, radioGroupNivel;
-    private RadioButton radioBtnPregunta;
+    private EditText editTextDescripcion;
     private Button btnEnviar;
     private DatabaseReference dataBaseFireStore;
 
@@ -32,6 +34,7 @@ public class InsertarBaseDatos extends AppCompatActivity {
 
         radioGroupTipo = findViewById(R.id.radioGroupTipo);
         radioGroupNivel = findViewById(R.id.radioGroupNivel);
+        editTextDescripcion = findViewById(R.id.textDescripcion);
         btnEnviar = findViewById(R.id.btn_insert);
 
         // Botón de enviar datos a Firebase
@@ -39,12 +42,18 @@ public class InsertarBaseDatos extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int valorDesmarcado = radioGroupTipo.getCheckedRadioButtonId();
+                String descripcion = editTextDescripcion.getText().toString().trim();
+
+                // Validar entrada del usuario
                 if (valorDesmarcado == -1) {
-                    Toast.makeText(getApplicationContext(), "⚠️ Tens que seleccion Pregunta o Proba", Toast.LENGTH_SHORT).show();
-                    return; // Detiene la ejecución y evita que pase a la siguiente pantalla
+                    Toast.makeText(getApplicationContext(), "⚠️ Debes seleccionar Pregunta o Prueba", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if (TextUtils.isEmpty(descripcion)) {
+                    editTextDescripcion.setError("La descripción no puede estar vacía");
                 } else {
                     enviarDatosFireBase();
-                    Intent intentLayoutInstruccion = new Intent(InsertarBaseDatos.this, Llistat.class);
+                    Intent intentLayoutInstruccion = new Intent(InsertarBaseDatos.this, Listado.class);
                     startActivity(intentLayoutInstruccion);
                 }
             }
@@ -68,10 +77,15 @@ public class InsertarBaseDatos extends AppCompatActivity {
             nivel = 0;
         }
 
-        // Crear objeto de datos
-        TablaDTO tablaDTO = new TablaDTO(seleccionTipo, nivel);
+        String descripcion = editTextDescripcion.getText().toString().trim();
 
+        // Crear objeto de datos
+        TablaDTO tablaDTO = new TablaDTO(null, seleccionTipo, nivel, descripcion);
+        tablaDTO.setEstado(0);
         dataBaseFireStore.push().setValue(tablaDTO);
 
+        radioGroupTipo.clearCheck();
+        radioGroupNivel.clearCheck();
+        editTextDescripcion.setText("");
     }
 }

@@ -1,5 +1,6 @@
 package com.carlescastro.despedidaarnau.utils;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.carlescastro.despedidaarnau.DetallesObjeto;
 import com.carlescastro.despedidaarnau.R;
 import com.carlescastro.despedidaarnau.modelo.TablaDTO;
 
@@ -33,11 +35,11 @@ public class ObjetosAdapter extends RecyclerView.Adapter<ObjetosAdapter.ViewHold
         TablaDTO todosLosDatosBBDD = listadoDatosBBDD.get(position);
 
         //Mostrar si es prueba o pregunta
-        holder.textPreguntaOPrueba.setText(todosLosDatosBBDD.preguntaOPrueba ? "Pregunta" : "Prueba");
+        holder.textPreguntaOPrueba.setText(todosLosDatosBBDD.isPreguntaOPrueba() ? "Pregunta" : "Prueba");
 
         //Cambiar el color del fondo de pantalla segun el nivel
         int colorId = 0;
-        switch (todosLosDatosBBDD.nivel){
+        switch (todosLosDatosBBDD.getNivel()){
             case 0:
                 colorId = R.color.gray;
                 break;
@@ -53,6 +55,16 @@ public class ObjetosAdapter extends RecyclerView.Adapter<ObjetosAdapter.ViewHold
         }
 
         holder.itemView.setBackgroundResource(colorId);
+
+        // Agregar listener para manejar el clic
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(v.getContext(), DetallesObjeto.class);
+            intent.putExtra("objetoId", todosLosDatosBBDD.getId()); // Enviar el ID único
+            intent.putExtra("preguntaOPrueba", todosLosDatosBBDD.isPreguntaOPrueba());
+            intent.putExtra("nivel", todosLosDatosBBDD.getNivel());
+            intent.putExtra("descripcion", todosLosDatosBBDD.getDescripcion()); // Agregar descripción
+            v.getContext().startActivity(intent);
+        });
     }
 
     @Override

@@ -19,6 +19,7 @@
 
 
     <!-- Grupo RadioButton para prueba o pregunta -->
+
     <RadioGroup
         android:id="@+id/radioGroupTipo"
         android:layout_width="wrap_content"
@@ -27,14 +28,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.150">
 
         <RadioButton
             android:id="@+id/rbPregunta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pregunta"
             android:focusable="true"
+            android:text="Pregunta"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,25 +47,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Prueba"
-            tools:layout_editor_absoluteX="264dp"
-            tools:layout_editor_absoluteY="98dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="98dp" />
 
     </RadioGroup>
 
-    <Button
-        android:id="@+id/btn_insert"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enviar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868" />
+
 
     <RadioGroup
         android:id="@+id/radioGroupNivel"
@@ -75,7 +68,7 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.671" >
+        app:layout_constraintVertical_bias="0.300" >
 
     <RadioButton
         android:id="@+id/rbNivel1"
@@ -108,5 +101,30 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     </RadioGroup>
+
+    <!-- Campo de descripción -->
+
+    <EditText
+        android:id="@+id/textDescripcion"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Escriu aquí putero"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.480"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

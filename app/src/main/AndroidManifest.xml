@@ -29,7 +29,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Llistat"
+        <activity android:name=".Listado"
+            android:exported="true"/>
+
+        <activity android:name=".DetallesObjeto"
             android:exported="true"/>
 
     </application>

@@ -2,15 +2,34 @@ package com.carlescastro.despedidaarnau.modelo;
 
 public class TablaDTO {
 
-    public boolean preguntaOPrueba;
-    public int nivel;
+    private String id;
+    private boolean preguntaOPrueba;
+    private int nivel;
+
+    private String descripcion;
+
+    private int estado;
+
+    private String nombre = "Anonimo Morales";
 
     public TablaDTO() { //Constructor vacio necesario para FireStore
     }
 
-    public TablaDTO(boolean preguntaOPrueba, int nivel) {
+    public TablaDTO(String id, boolean preguntaOPrueba, int nivel, String descripcion) {
+        this.id = id;
         this.preguntaOPrueba = preguntaOPrueba;
         this.nivel = nivel;
+        this.descripcion = descripcion;
+        this.estado = 0;
+        this.nombre = "Anonimo Gonzalez";
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public boolean isPreguntaOPrueba() {
@@ -27,5 +46,29 @@ public class TablaDTO {
 
     public void setNivel(int nivel) {
         this.nivel = nivel;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public int getEstado() {
+        return estado;
+    }
+
+    public void setEstado(int estado) {
+        this.estado = estado;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 }
