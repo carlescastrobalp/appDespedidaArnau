@@ -1,0 +1,3 @@
+com.carlescastro.despedidaarnau.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

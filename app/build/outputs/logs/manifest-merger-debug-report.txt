@@ -1,0 +1,615 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5aa67682f493867eb0a7dad3ceba0e25\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\45938a0fe79ea47787487b07631e4ac2\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\53afdd831ad197af265a0972f29699b1\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4adfc8d8ecff8778ca097f2c14f3130d\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f0680c47f0deb10666c265a99730f81e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0bb702b501cb61d5e56ed34bd0f6e28\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4ccd0088885665a79a1c4fd565197723\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e666b72993357a37f863ed6cd828a1e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bdc1f3748b833d3899ce92b334212e24\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\43143c6ca789ac688e84acc93292ea78\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\997cf6f83950b8fde44cc9ec9ee023d4\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8902966e3632c309c3bf738474d16efe\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\cb5a4fb61c6154c01a654dd49cbaae10\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f9eff06c981bdb74f1b113f7563e6a2b\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\7378f88ebd265863be93fb1cace81fde\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31e1ae2af802c64aa84cbae451b05a1b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\0aeb064b0c5662d6d42fa0ebb9b263d9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9a5450062c8a750d52bee558c7087c4a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4e830c91676ef7502bcdc4b3a28126b6\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\3bfa54f958b28750300b214a561e5493\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dbd87f5e2d591c0b689f76ce9e451958\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\74b90daf755fbcf4a1c8537138c52dab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b730f00688da3dde60c737a33ba8a885\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5c2f55b49010cd3690adee959f941a90\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31b314cf8212364c8cf6355f1d713859\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\16291bb06a9e4539db22a6d0929c2ec4\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\edd2be4da6a44cd80c6a57060a2de1cf\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\2c75573846bf829619209764c453d55a\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8b7b0990f8a4696cf3a2d607f9afd937\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\67c44d4d935ae02e1de22fe07b2073c5\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\500c63e9d24505410731b09c2b3c75e5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\613a36eb2f59640cdf0049e04297c8bd\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\20a69402b9dc38902eb6f8c0b1e20fdb\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c4fb8205c770682e2c8e5617da09e227\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc6f8019bbc3f3e4e670485ad2a291ce\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\47512cb1fc89c6853d144a96067fd596\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a5872344005f3978d18972dbd73506a\transformed\activity-1.10.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\ac2e70459fa5008a2642cfa47b00bde8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\350cfdac4e3a7a6ab9de57fb3a1e92fd\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\24686027ae99fa23a7b4b03759a75236\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\28e28af290782936e2286755ce7c5b42\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d325682c32d2eaf9b35e6b46d9fb5daa\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc169bb1eee74334d387f96602d451bf\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31fb8674d1af765b2c888bc300654646\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\6848dc44ff46575af24f35d575f61d5b\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e30b95cbca37aba8f7fe141a7f3ef8e\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\ab7072d2e7dba4184b670e6100fed148\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a9094a9ad067475418fc4514e80bcd6c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\069ad8215699d13bdea81dd47df3909f\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\fe5b4351804d671a1720c17a131b950e\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:5:5-38:19
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:5:5-38:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5aa67682f493867eb0a7dad3ceba0e25\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5aa67682f493867eb0a7dad3ceba0e25\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f0680c47f0deb10666c265a99730f81e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f0680c47f0deb10666c265a99730f81e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0bb702b501cb61d5e56ed34bd0f6e28\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0bb702b501cb61d5e56ed34bd0f6e28\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4ccd0088885665a79a1c4fd565197723\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4ccd0088885665a79a1c4fd565197723\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e666b72993357a37f863ed6cd828a1e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e666b72993357a37f863ed6cd828a1e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bdc1f3748b833d3899ce92b334212e24\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bdc1f3748b833d3899ce92b334212e24\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\43143c6ca789ac688e84acc93292ea78\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\43143c6ca789ac688e84acc93292ea78\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\997cf6f83950b8fde44cc9ec9ee023d4\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\997cf6f83950b8fde44cc9ec9ee023d4\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c4fb8205c770682e2c8e5617da09e227\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c4fb8205c770682e2c8e5617da09e227\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc6f8019bbc3f3e4e670485ad2a291ce\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc6f8019bbc3f3e4e670485ad2a291ce\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\24686027ae99fa23a7b4b03759a75236\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\24686027ae99fa23a7b4b03759a75236\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31fb8674d1af765b2c888bc300654646\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31fb8674d1af765b2c888bc300654646\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:13:9-52
+	android:dataExtractionRules
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.carlescastro.despedidaarnau.MainActivity
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:15:9-17:38
+	android:exported
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:16:13-41
+activity#com.carlescastro.despedidaarnau.Instrucciones
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:19:9-20:38
+	android:exported
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:19:19-48
+activity#com.carlescastro.despedidaarnau.InsertarBaseDatos
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:23:9-30:20
+	android:exported
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:23:19-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.carlescastro.despedidaarnau.Listado
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:32:9-33:38
+	android:exported
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:32:19-42
+activity#com.carlescastro.despedidaarnau.DetallesObjeto
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:35:9-36:38
+	android:exported
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:35:19-49
+uses-sdk
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5aa67682f493867eb0a7dad3ceba0e25\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5aa67682f493867eb0a7dad3ceba0e25\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\45938a0fe79ea47787487b07631e4ac2\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\45938a0fe79ea47787487b07631e4ac2\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\53afdd831ad197af265a0972f29699b1\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\53afdd831ad197af265a0972f29699b1\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4adfc8d8ecff8778ca097f2c14f3130d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4adfc8d8ecff8778ca097f2c14f3130d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f0680c47f0deb10666c265a99730f81e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f0680c47f0deb10666c265a99730f81e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0bb702b501cb61d5e56ed34bd0f6e28\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0bb702b501cb61d5e56ed34bd0f6e28\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4ccd0088885665a79a1c4fd565197723\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4ccd0088885665a79a1c4fd565197723\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e666b72993357a37f863ed6cd828a1e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e666b72993357a37f863ed6cd828a1e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bdc1f3748b833d3899ce92b334212e24\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bdc1f3748b833d3899ce92b334212e24\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\43143c6ca789ac688e84acc93292ea78\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\43143c6ca789ac688e84acc93292ea78\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\997cf6f83950b8fde44cc9ec9ee023d4\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\997cf6f83950b8fde44cc9ec9ee023d4\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8902966e3632c309c3bf738474d16efe\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8902966e3632c309c3bf738474d16efe\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\cb5a4fb61c6154c01a654dd49cbaae10\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\cb5a4fb61c6154c01a654dd49cbaae10\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f9eff06c981bdb74f1b113f7563e6a2b\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\f9eff06c981bdb74f1b113f7563e6a2b\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\7378f88ebd265863be93fb1cace81fde\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\7378f88ebd265863be93fb1cace81fde\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31e1ae2af802c64aa84cbae451b05a1b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31e1ae2af802c64aa84cbae451b05a1b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\0aeb064b0c5662d6d42fa0ebb9b263d9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\0aeb064b0c5662d6d42fa0ebb9b263d9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9a5450062c8a750d52bee558c7087c4a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9a5450062c8a750d52bee558c7087c4a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4e830c91676ef7502bcdc4b3a28126b6\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4e830c91676ef7502bcdc4b3a28126b6\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\3bfa54f958b28750300b214a561e5493\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\3bfa54f958b28750300b214a561e5493\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dbd87f5e2d591c0b689f76ce9e451958\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dbd87f5e2d591c0b689f76ce9e451958\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\74b90daf755fbcf4a1c8537138c52dab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\74b90daf755fbcf4a1c8537138c52dab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b730f00688da3dde60c737a33ba8a885\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b730f00688da3dde60c737a33ba8a885\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5c2f55b49010cd3690adee959f941a90\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5c2f55b49010cd3690adee959f941a90\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31b314cf8212364c8cf6355f1d713859\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31b314cf8212364c8cf6355f1d713859\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\16291bb06a9e4539db22a6d0929c2ec4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\16291bb06a9e4539db22a6d0929c2ec4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\edd2be4da6a44cd80c6a57060a2de1cf\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\edd2be4da6a44cd80c6a57060a2de1cf\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\2c75573846bf829619209764c453d55a\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\2c75573846bf829619209764c453d55a\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8b7b0990f8a4696cf3a2d607f9afd937\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8b7b0990f8a4696cf3a2d607f9afd937\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\67c44d4d935ae02e1de22fe07b2073c5\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\67c44d4d935ae02e1de22fe07b2073c5\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\500c63e9d24505410731b09c2b3c75e5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\500c63e9d24505410731b09c2b3c75e5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\613a36eb2f59640cdf0049e04297c8bd\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\613a36eb2f59640cdf0049e04297c8bd\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\20a69402b9dc38902eb6f8c0b1e20fdb\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\20a69402b9dc38902eb6f8c0b1e20fdb\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c4fb8205c770682e2c8e5617da09e227\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c4fb8205c770682e2c8e5617da09e227\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc6f8019bbc3f3e4e670485ad2a291ce\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc6f8019bbc3f3e4e670485ad2a291ce\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\47512cb1fc89c6853d144a96067fd596\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\47512cb1fc89c6853d144a96067fd596\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a5872344005f3978d18972dbd73506a\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a5872344005f3978d18972dbd73506a\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\ac2e70459fa5008a2642cfa47b00bde8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\ac2e70459fa5008a2642cfa47b00bde8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\350cfdac4e3a7a6ab9de57fb3a1e92fd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\350cfdac4e3a7a6ab9de57fb3a1e92fd\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\24686027ae99fa23a7b4b03759a75236\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\24686027ae99fa23a7b4b03759a75236\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\28e28af290782936e2286755ce7c5b42\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\28e28af290782936e2286755ce7c5b42\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d325682c32d2eaf9b35e6b46d9fb5daa\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d325682c32d2eaf9b35e6b46d9fb5daa\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc169bb1eee74334d387f96602d451bf\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\dc169bb1eee74334d387f96602d451bf\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31fb8674d1af765b2c888bc300654646\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\31fb8674d1af765b2c888bc300654646\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\6848dc44ff46575af24f35d575f61d5b\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\6848dc44ff46575af24f35d575f61d5b\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e30b95cbca37aba8f7fe141a7f3ef8e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e30b95cbca37aba8f7fe141a7f3ef8e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\ab7072d2e7dba4184b670e6100fed148\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\ab7072d2e7dba4184b670e6100fed148\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a9094a9ad067475418fc4514e80bcd6c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a9094a9ad067475418fc4514e80bcd6c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\069ad8215699d13bdea81dd47df3909f\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\069ad8215699d13bdea81dd47df3909f\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\fe5b4351804d671a1720c17a131b950e\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\fe5b4351804d671a1720c17a131b950e\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:27:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\a354753badb1454cffaf1c6aaf9f5ee4\transformed\firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e666b72993357a37f863ed6cd828a1e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8e666b72993357a37f863ed6cd828a1e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8f47e5cf9c21e791fa340e82bcf7620f\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c7096ac74b011058ccbfb5317bf8c5e4\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\eeafbcb1f92f1947fa43792221301cf8\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\c20f2c883ef3b4b7766753e6bbae84f3\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\9f919748ed12eb16e1a8dbaad0c6f8a4\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd4609a48592f10f5fbb7f8dd9fc4bff\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\4a460eec42a9cb47d0c0a3a420e6334d\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\df7b3e8077063a54159eeb3ed94b610b\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\80a06eed1e67cd01e1d3d4a81dc9fcc2\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\24686027ae99fa23a7b4b03759a75236\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\24686027ae99fa23a7b4b03759a75236\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\185848e2ad1f28d06f19b73ba073fc32\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.carlescastro.despedidaarnau.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.carlescastro.despedidaarnau.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\d77d9ff6dad2f4c70518727c1e0e90c2\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\b0cc2f68c1e468448234b7f61dd81f37\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\aa5bd54ebe706c3c014e53262fdd0093\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\bd22ddae669a39cba93754f66a9a500a\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

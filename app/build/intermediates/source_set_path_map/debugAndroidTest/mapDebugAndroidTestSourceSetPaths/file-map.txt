@@ -1,0 +1,5 @@
+com.carlescastro.despedidaarnau.test.app-core-1.6.1-0 C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\1b6a89a991b57a641c2853aa4ac416b9\transformed\core-1.6.1\res
+com.carlescastro.despedidaarnau.test.app-androidTest-1 C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\build\generated\res\resValues\androidTest\debug
+com.carlescastro.despedidaarnau.test.app-mergeDebugAndroidTestResources-2 C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.carlescastro.despedidaarnau.test.app-mergeDebugAndroidTestResources-3 C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.carlescastro.despedidaarnau.test.app-debugAndroidTest-4 C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

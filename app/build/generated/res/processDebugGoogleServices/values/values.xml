@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://despedida-arnau-5e636-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">550147385775</string>
+    <string name="google_api_key" translatable="false">AIzaSyBH449yR9WfzeT9I1ytzqfHEz3ua55XQss</string>
+    <string name="google_app_id" translatable="false">1:550147385775:android:71b003344f1562e423275a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBH449yR9WfzeT9I1ytzqfHEz3ua55XQss</string>
+    <string name="google_storage_bucket" translatable="false">despedida-arnau-5e636.firebasestorage.app</string>
+    <string name="project_id" translatable="false">despedida-arnau-5e636</string>
+</resources>
