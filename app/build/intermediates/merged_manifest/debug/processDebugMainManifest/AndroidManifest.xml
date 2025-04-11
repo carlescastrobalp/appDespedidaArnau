@@ -43,7 +43,7 @@
             android:name="com.carlescastro.despedidaarnau.Instrucciones"
             android:exported="true" />
         <activity
-            android:name="com.carlescastro.despedidaarnau.InsertarBaseDatos"
+            android:name="com.carlescastro.despedidaarnau.SeleccionPersonas"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,6 +51,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.carlescastro.despedidaarnau.Contrasenya"
+            android:exported="true" />
+        <activity
+            android:name="com.carlescastro.despedidaarnau.InsertarBaseDatos"
+            android:exported="true" />
         <activity
             android:name="com.carlescastro.despedidaarnau.Listado"
             android:exported="true" />

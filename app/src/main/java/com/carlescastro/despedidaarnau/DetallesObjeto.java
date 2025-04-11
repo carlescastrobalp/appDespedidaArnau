@@ -3,6 +3,7 @@ package com.carlescastro.despedidaarnau;
 import static android.view.View.INVISIBLE;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,8 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Objects;
+
 public class DetallesObjeto extends AppCompatActivity {
     private TextView textPreguntaOPrueba, textNivel, textDescripcion;
     private Button btnCompletar, btnRechazar;
@@ -25,6 +28,9 @@ public class DetallesObjeto extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalles);
+
+        SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+        String nombrePersonaSharePreference = sharedPreferences.getString("nombrePersona", "Desconocido"); // Valor por defecto si es nulo
 
         // Vincular elementos del layout
         textPreguntaOPrueba = findViewById(R.id.textPreguntaOPrueba);
@@ -39,14 +45,21 @@ public class DetallesObjeto extends AppCompatActivity {
         // Recibir datos del intent
         if (getIntent() != null) {
             objetoId = getIntent().getStringExtra("objetoId");
+            if (objetoId == null) {
+                Toast.makeText(this, "⚠️ Peto, no s'ha trobat el Objecte", Toast.LENGTH_SHORT).show();
+                finish();
+                return;
+            }
 
             //Que desaparezcan los botones si ya ha seleccionado 'Completado' o 'Rechazado'
             databaseReference.child(objetoId).child("estado").get().addOnCompleteListener(task -> {
                 if (task.isSuccessful()) {
                     Integer estado = task.getResult().getValue(Integer.class);
-                    if (estado != null && (estado == 1 || estado == 2)) {
+                    if (estado != null && (estado == 1 || estado == 2 || (!"Arnau".equalsIgnoreCase(nombrePersonaSharePreference)))) {
                         btnCompletar.setVisibility(View.INVISIBLE);
+                        btnCompletar.setEnabled(false);
                         btnRechazar.setVisibility(View.INVISIBLE);
+                        btnRechazar.setEnabled(false);
                     }
                 } else {
                     Toast.makeText(DetallesObjeto.this, "Error al obtener estado", Toast.LENGTH_SHORT).show();
@@ -57,13 +70,13 @@ public class DetallesObjeto extends AppCompatActivity {
 
             //Valor segun el nivel
             if(getIntent().getIntExtra("nivel", 0) == 0){
-                textNivel.setText("No s'ha seleccionat la intensitat");
+                textNivel.setText("Nivell: No s'ha seleccionat la intensitat");
             } else if(getIntent().getIntExtra("nivel", 0) == 1){
-                textNivel.setText("Suau, pots estar tranquil");
+                textNivel.setText("Nivell: Suau, pots estar tranquil");
             } else if(getIntent().getIntExtra("nivel", 0) == 2){
-                textNivel.setText("Intensito, se fique la cosa interesant");
+                textNivel.setText("Nivell: Intensito, se fique la cosa interesant");
             } else if(getIntent().getIntExtra("nivel", 0) == 3){
-                textNivel.setText("Extrem, mort asegurada");
+                textNivel.setText("Nivell: Extrem, mort asegurada");
             }
 
             textDescripcion.setText(getIntent().getStringExtra("descripcion"));

@@ -10,18 +10,18 @@ public class TablaDTO {
 
     private int estado;
 
-    private String nombre = "Anonimo Morales";
+    private String nombre;
 
     public TablaDTO() { //Constructor vacio necesario para FireStore
     }
 
-    public TablaDTO(String id, boolean preguntaOPrueba, int nivel, String descripcion) {
+    public TablaDTO(String id, boolean preguntaOPrueba, int nivel, String descripcion, String nombre) {
         this.id = id;
         this.preguntaOPrueba = preguntaOPrueba;
         this.nivel = nivel;
         this.descripcion = descripcion;
         this.estado = 0;
-        this.nombre = "Anonimo Gonzalez";
+        this.nombre = nombre;
     }
 
     public String getId() {

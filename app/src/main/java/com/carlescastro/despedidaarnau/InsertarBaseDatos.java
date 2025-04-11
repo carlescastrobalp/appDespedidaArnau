@@ -20,7 +20,7 @@ public class InsertarBaseDatos extends AppCompatActivity {
 
     private RadioGroup radioGroupTipo, radioGroupNivel;
     private EditText editTextDescripcion;
-    private Button btnEnviar;
+    private Button btnEnviar, btnVerListado;
     private DatabaseReference dataBaseFireStore;
 
     @Override
@@ -36,6 +36,16 @@ public class InsertarBaseDatos extends AppCompatActivity {
         radioGroupNivel = findViewById(R.id.radioGroupNivel);
         editTextDescripcion = findViewById(R.id.textDescripcion);
         btnEnviar = findViewById(R.id.btn_insert);
+
+        //Boton para layout del listado
+        btnVerListado = findViewById(R.id.verListado);
+        btnVerListado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(InsertarBaseDatos.this, Listado.class);
+                startActivity(intent);
+            }
+        });
 
         // Botón de enviar datos a Firebase
         btnEnviar.setOnClickListener(new View.OnClickListener() {
@@ -61,6 +71,7 @@ public class InsertarBaseDatos extends AppCompatActivity {
     }
 
     private void enviarDatosFireBase (){
+
         // Obtener selección de prueba o pregunta
         boolean seleccionTipo = radioGroupTipo.getCheckedRadioButtonId() == R.id.rbPregunta;
 
@@ -78,11 +89,16 @@ public class InsertarBaseDatos extends AppCompatActivity {
         }
 
         String descripcion = editTextDescripcion.getText().toString().trim();
+        String nombrePersona = getIntent().getStringExtra("nombrePersona"); // Obtener el nombre desde el Intent
 
         // Crear objeto de datos
-        TablaDTO tablaDTO = new TablaDTO(null, seleccionTipo, nivel, descripcion);
+        TablaDTO tablaDTO = new TablaDTO(null, seleccionTipo, nivel, descripcion, nombrePersona);
         tablaDTO.setEstado(0);
-        dataBaseFireStore.push().setValue(tablaDTO);
+        tablaDTO.setNombre(nombrePersona); // Guardar el nombre
+
+        dataBaseFireStore.push().setValue(tablaDTO)
+                .addOnSuccessListener(aVoid -> Toast.makeText(this, "Felicitats campio, has creat una nova petició", Toast.LENGTH_SHORT).show())
+                .addOnFailureListener(e -> Toast.makeText(this, "Error al insertar les dades", Toast.LENGTH_SHORT).show());
 
         radioGroupTipo.clearCheck();
         radioGroupNivel.clearCheck();

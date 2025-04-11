@@ -12,15 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DespedidaArnau"
         tools:targetApi="31" >
-        <activity
-            android:name=".MainActivity"
+
+        <activity android:name=".MainActivity"
             android:exported="true"/>
 
         <activity android:name=".Instrucciones"
             android:exported="true"/>
 
-
-        <activity android:name=".InsertarBaseDatos"
+        <activity
+            android:name=".SeleccionPersonas"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +28,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Contrasenya"
+            android:exported="true"/>
+
+        <activity android:name=".InsertarBaseDatos"
+            android:exported="true"/>
 
         <activity android:name=".Listado"
             android:exported="true"/>

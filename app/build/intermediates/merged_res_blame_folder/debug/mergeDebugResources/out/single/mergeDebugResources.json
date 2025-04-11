@@ -8,14 +8,6 @@
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\disenio_linea_datos.xml"
     },
     {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_main.xml"
     },
@@ -28,28 +20,52 @@
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_insertar_base_datos.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\insertar_base_datos.xml"
-    },
-    {
-        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_activity_detalles.xml.flat",
-        "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/activity_detalles.xml"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_listado.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_listado.xml"
     },
     {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_activity_contrasenya.xml.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/activity_contrasenya.xml"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-pngs-33:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_activity_personal.xml.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/activity_personal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -64,20 +80,8 @@
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-pngs-33:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_detalles.xml.flat",

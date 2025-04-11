@@ -1,5 +1,7 @@
 package com.carlescastro.despedidaarnau.utils;
 
+import static android.content.Intent.getIntent;
+
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -62,7 +64,7 @@ public class ObjetosAdapter extends RecyclerView.Adapter<ObjetosAdapter.ViewHold
             intent.putExtra("objetoId", todosLosDatosBBDD.getId()); // Enviar el ID único
             intent.putExtra("preguntaOPrueba", todosLosDatosBBDD.isPreguntaOPrueba());
             intent.putExtra("nivel", todosLosDatosBBDD.getNivel());
-            intent.putExtra("descripcion", todosLosDatosBBDD.getDescripcion()); // Agregar descripción
+            intent.putExtra("descripcion", todosLosDatosBBDD.getDescripcion());// Agregar descripción
             v.getContext().startActivity(intent);
         });
     }

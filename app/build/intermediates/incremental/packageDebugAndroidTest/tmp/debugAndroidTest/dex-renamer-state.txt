@@ -1,4 +1,4 @@
-#Thu Apr 10 12:53:13 CEST 2025
+#Fri Apr 11 16:42:53 CEST 2025
 base.0=C\:\\Users\\Equip Estudi\\AndroidStudioProjects\\DespedidaArnau\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\Equip Estudi\\AndroidStudioProjects\\DespedidaArnau\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Users\\Equip Estudi\\AndroidStudioProjects\\DespedidaArnau\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\2\\classes.dex

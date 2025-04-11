@@ -64,10 +64,10 @@ public class Listado extends AppCompatActivity {
                     if (estado != null && estado == filtroEstado) { // Solo incluir si el estado es "nuevo"
                         Boolean preguntaOPrueba = objSnapshot.child("preguntaOPrueba").getValue(Boolean.class);
                         Integer nivel = objSnapshot.child("nivel").getValue(Integer.class);
-                        String descripcion = objSnapshot.child("descripcion").getValue(String.class);
+                        String descripcion = objSnapshot.child("descripcion").getValue(String.class); // Cargar el nombre desde Firebase
 
                         if (preguntaOPrueba != null && nivel != null && descripcion != null) {
-                            TablaDTO tablaDTO = new TablaDTO(objSnapshot.getKey(), preguntaOPrueba, nivel, descripcion); // Agregar ID único
+                            TablaDTO tablaDTO = new TablaDTO(objSnapshot.getKey(), preguntaOPrueba, nivel, descripcion, null); // Agregar ID único
                             datosBBDD.add(tablaDTO);
                         }
                     }
