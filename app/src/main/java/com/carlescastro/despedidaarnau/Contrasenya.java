@@ -1,6 +1,7 @@
 package com.carlescastro.despedidaarnau;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -16,7 +17,7 @@ public class Contrasenya extends AppCompatActivity {
     private EditText editTextContrasena;
     private Button btnContinuar;
     private String nombrePersona;
-    private Map<String, String> passPersona;
+    private Map<String, String> passPersona, passModeTCT;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,19 @@ public class Contrasenya extends AppCompatActivity {
         passPersona.put("Laura", "laura");
         passPersona.put("Carles", "carles");
 
+        // Inicializar mapa de contraseñas TCT
+        passModeTCT = new HashMap<>();
+        passModeTCT.put("Arnau", "arnautct");
+        passModeTCT.put("Ribas", "ribastct");
+        passModeTCT.put("Eli", "elitct");
+        passModeTCT.put("Oriol", "orioltct");
+        passModeTCT.put("Marc", "marctct");
+        passModeTCT.put("Ivan", "ivantct");
+        passModeTCT.put("Karen", "karentct");
+        passModeTCT.put("Roger", "rogertct");
+        passModeTCT.put("Laura", "lauratct");
+        passModeTCT.put("Carles", "carlestct");
+
         // Añadir las demás contraseñas según los nombres
 
         editTextContrasena = findViewById(R.id.editTextContrasena);
@@ -55,17 +69,49 @@ public class Contrasenya extends AppCompatActivity {
         }
 
         String contrasenaCorrecta = passPersona.get(nombrePersona);
-        if (contrasenaIngresada.equalsIgnoreCase(contrasenaCorrecta)) {
-            if(nombrePersona.equalsIgnoreCase("arnau")){
+        String contrasenaCorrectaTCT = passModeTCT.get(nombrePersona);
+        boolean mode = false;
+
+        if(contrasenaIngresada.equalsIgnoreCase(contrasenaCorrectaTCT)){
+            mode = true;
+        } else {
+            mode = false;
+        }
+
+        if (contrasenaIngresada.equalsIgnoreCase(contrasenaCorrecta) || contrasenaIngresada.equalsIgnoreCase(contrasenaCorrectaTCT)) {
+            if(contrasenaIngresada.equalsIgnoreCase("arnau") && !mode){
                 // Si es l'Arnau, vas directe a el llistat
                 Intent intent = new Intent(Contrasenya.this, Listado.class);
                 intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre de la persona
+                // Guardar el nombre en SharedPreferences
+                SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putBoolean("mode", mode);
+                editor.apply();
                 startActivity(intent);
                 finish();
-            }else {
+            } else if (!contrasenaIngresada.equalsIgnoreCase("arnau") && contrasenaIngresada.equalsIgnoreCase(contrasenaCorrecta)){
+                // Si es l'Arnau, vas directe a el llistat
+                Intent intent = new Intent(Contrasenya.this, InsertarBaseDatos.class);
+                intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre de la persona
+                // Guardar el nombre en SharedPreferences
+                SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putBoolean("mode", mode);
+                editor.apply();
+                startActivity(intent);
+                finish();
+            } else if(contrasenaIngresada.equalsIgnoreCase(contrasenaCorrectaTCT)) {
                 // Contraseña correcta, redirigir al layout de insertar datos
                 Intent intent = new Intent(Contrasenya.this, InsertarBaseDatos.class);
                 intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre de la persona
+
+                // Guardar el nombre en SharedPreferences
+                SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putBoolean("mode", mode);
+                editor.apply();
+
                 startActivity(intent);
                 finish();
             }
@@ -73,5 +119,4 @@ public class Contrasenya extends AppCompatActivity {
             Toast.makeText(this, "⚠️ Muy mal, t'has equivocat", Toast.LENGTH_SHORT).show();
         }
     }
-
 }

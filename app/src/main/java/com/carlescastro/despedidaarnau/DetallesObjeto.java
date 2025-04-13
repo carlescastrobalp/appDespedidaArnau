@@ -1,5 +1,7 @@
 package com.carlescastro.despedidaarnau;
 
+import static android.view.View.INVISIBLE;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -12,6 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Objects;
 
 
 public class DetallesObjeto extends AppCompatActivity {
@@ -27,6 +31,7 @@ public class DetallesObjeto extends AppCompatActivity {
 
         SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
         String nombrePersonaSharePreference = sharedPreferences.getString("nombrePersona", "Desconocido"); // Valor por defecto si es nulo
+        boolean modeTCT = sharedPreferences.getBoolean("mode", false);
 
         // Vincular elementos del layout
         textPreguntaOPrueba = findViewById(R.id.textPreguntaOPrueba);
@@ -35,14 +40,21 @@ public class DetallesObjeto extends AppCompatActivity {
         btnCompletar = findViewById(R.id.btnCompletar);
         btnRechazar = findViewById(R.id.btnRechazar);
 
+        if (modeTCT){
+            btnCompletar.setEnabled(false);
+            btnRechazar.setEnabled(false);
+            btnCompletar.setVisibility(INVISIBLE);
+            btnRechazar.setVisibility(INVISIBLE);
+        }
+
         // Referencia a Firebase
-        databaseReference = FirebaseDatabase.getInstance().getReference("objecte");
+        databaseReference = FirebaseDatabase.getInstance().getReference("arnau");
 
         // Recibir datos del intent
         if (getIntent() != null) {
             objetoId = getIntent().getStringExtra("objetoId");
             if (objetoId == null) {
-                Toast.makeText(this, "⚠️ Peto, no s'ha trobat el Objecte", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "⚠️ Peto wey, no s'ha trobat el Objecte", Toast.LENGTH_SHORT).show();
                 finish();
                 return;
             }
@@ -51,10 +63,10 @@ public class DetallesObjeto extends AppCompatActivity {
             databaseReference.child(objetoId).child("estado").get().addOnCompleteListener(task -> {
                 if (task.isSuccessful()) {
                     Integer estado = task.getResult().getValue(Integer.class);
-                    if (estado != null && (estado == 1 || estado == 2 || (!"Arnau".equalsIgnoreCase(nombrePersonaSharePreference)))) {
-                        btnCompletar.setVisibility(View.INVISIBLE);
+                    if (estado != null && (estado == 1 || estado == 2 ) || (!"Arnau".equalsIgnoreCase(nombrePersonaSharePreference))) {
+                        btnCompletar.setVisibility(INVISIBLE);
                         btnCompletar.setEnabled(false);
-                        btnRechazar.setVisibility(View.INVISIBLE);
+                        btnRechazar.setVisibility(INVISIBLE);
                         btnRechazar.setEnabled(false);
                     }
                 } else {

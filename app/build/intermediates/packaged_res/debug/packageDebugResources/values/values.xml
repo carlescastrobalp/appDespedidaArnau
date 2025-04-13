@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="gent">
+        <item>Arnau</item>
+        <item>Ribas</item>
+        <item>Eli</item>
+        <item>Oriol</item>
+        <item>Marc</item>
+        <item>Ivan</item>
+        <item>Karen</item>
+        <item>Roger</item>
+        <item>Laura</item>
+        <item>Carles</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="gray">#aaaaaa</color>
     <color name="green">#3ef735</color>

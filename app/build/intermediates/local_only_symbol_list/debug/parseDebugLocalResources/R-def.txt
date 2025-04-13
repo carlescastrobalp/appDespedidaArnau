@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array gent
 color black
 color gray
 color green
@@ -45,6 +46,7 @@ id rbNivel3
 id rbPregunta
 id rbPrueba
 id recycleViewListado
+id spinnerPersonal
 id textDescripcion
 id textNivel
 id textPreguntaOPrueba
