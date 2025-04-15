@@ -7,8 +7,18 @@ color green
 color red
 color white
 color yellow
+drawable background_main1
+drawable background_main2
+drawable button_completar1
+drawable button_completar2
+drawable button_ivan
+drawable button_rechazar1
+drawable button_rechazar2
+drawable fondo_main1
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logica_button
+drawable logica_text_button
 id Texte
 id Titol1
 id Titol2
@@ -36,7 +46,6 @@ id detalleDescripcion
 id editTextContrasena
 id imatgePrincipal
 id logo
-id main
 id pantalla2
 id radioGroupNivel
 id radioGroupTipo
@@ -53,7 +62,7 @@ id textPreguntaOPrueba
 id verListado
 layout activity_contrasenya
 layout activity_detalles
-layout activity_instrucciiones
+layout activity_instrucciones
 layout activity_listado
 layout activity_main
 layout activity_personal

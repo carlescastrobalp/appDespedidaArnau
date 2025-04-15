@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado presionado: texto transparente -->
+    <item android:color="@android:color/transparent" android:state_pressed="true" />
+    <!-- Estado normal: el color que desees para el texto (por ejemplo, blanco) -->
+    <item android:color="#FFFFFF" />
+</selector>

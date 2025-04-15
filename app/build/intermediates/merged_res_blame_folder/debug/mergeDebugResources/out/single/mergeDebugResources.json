@@ -1,35 +1,51 @@
 [
     {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_disenio_linea_datos.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\disenio_linea_datos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_instrucciiones.xml.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_instrucciiones.xml"
-    },
-    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_button_ivan.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\button_ivan.png"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_insertar_base_datos.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\insertar_base_datos.xml"
     },
     {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_fondo_main1.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\fondo_main1.png"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_background_main1.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\background_main1.png"
+    },
+    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_listado.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_listado.xml"
     },
     {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_button_rechazar2.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\button_rechazar2.png"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -40,6 +56,10 @@
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-pngs-33:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_button_completar2.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\button_completar2.png"
+    },
+    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -48,24 +68,32 @@
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_personal.xml"
     },
     {
-        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_activity_personal.xml.flat",
-        "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/activity_personal.xml"
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable-v24_logica_text_button.xml.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable-v24\\logica_text_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable-v24_logica_button.xml.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable-v24\\logica_button.xml"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_background_main2.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\background_main2.png"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -76,16 +104,32 @@
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_button_rechazar1.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\button_rechazar1.png"
+    },
+    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_instrucciones.xml.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_instrucciones.xml"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_fondo_main.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\fondo_main.png"
+    },
+    {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_detalles.xml.flat",
         "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\layout\\activity_detalles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\drawable_button_completar1.png.flat",
+        "source": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-main-40:\\drawable\\button_completar1.png"
     },
     {
         "merged": "C:\\Users\\Equip Estudi\\.gradle\\daemon\\8.11.1\\com.carlescastro.despedidaarnau.app-debug-38:\\layout_activity_contrasenya.xml.flat",
