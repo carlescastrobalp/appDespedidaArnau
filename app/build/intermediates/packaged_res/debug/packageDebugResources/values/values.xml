@@ -25,6 +25,17 @@
     <string name="google_app_id" translatable="false">1:550147385775:android:71b003344f1562e423275a</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBH449yR9WfzeT9I1ytzqfHEz3ua55XQss</string>
     <string name="google_storage_bucket" translatable="false">despedida-arnau-5e636.firebasestorage.app</string>
+    <string name="instruccions">
+        <string name="instrucciones">
+        <![CDATA[
+        <b>Instruccions d\'ús:</b><br/><br/>
+        1. <b>Selecciona el teu nom</b> a la pantalla inicial.<br/><br/>
+        2. <b>Introdueix la teva contrasenya personal</b> per accedir.<br/><br/>
+        3. <b>Crea noves entrades</b> indicant si és una pregunta o prova, el nivell d\'intensitat i la descripció.<br/><br/>
+        4. <b>Consulta el llistat</b> per veure les entrades segons el seu estat: noves, completades o rebutjades.<br/>
+        ]]>
+    </string>
+    </string>
     <string name="project_id" translatable="false">despedida-arnau-5e636</string>
     <style name="Base.Theme.DespedidaArnau" parent="Theme.Material3.DayNight.NoActionBar">
         

@@ -3161,6 +3161,8 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font harry_potter
+font letter
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3388,6 +3390,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id fondoPrincipal
 id forever
 id fragment_container_view_tag
 id frost
@@ -3998,6 +4001,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string instruccions
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium

@@ -19,6 +19,8 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logica_button
 drawable logica_text_button
+font harry_potter
+font letter
 id Texte
 id Titol1
 id Titol2
@@ -44,6 +46,7 @@ id btn_insert
 id btn_instrucciones
 id detalleDescripcion
 id editTextContrasena
+id fondoPrincipal
 id imatgePrincipal
 id logo
 id pantalla2
@@ -77,6 +80,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string instruccions
 string project_id
 style Base.Theme.DespedidaArnau
 style Theme.DespedidaArnau

@@ -3,14 +3,14 @@
     <!-- Estado presionado -->
     <item android:state_pressed="true">
         <shape>
-            <solid android:color="#C70039" />
+            <solid android:color="#946A35" />
             <corners android:radius="10dp" />
         </shape>
     </item>
     <!-- Estado normal -->
     <item>
         <shape>
-            <solid android:color="#FF5733" />
+            <solid android:color="#C18E46" />
             <corners android:radius="10dp" />
         </shape>
     </item>
