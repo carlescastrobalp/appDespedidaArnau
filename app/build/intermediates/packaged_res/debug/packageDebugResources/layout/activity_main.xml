@@ -36,14 +36,14 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:background="@drawable/logica_button"
+        android:fontFamily="@font/harry_potter"
         android:text="Iniciar"
         android:textColor="#F6E2B3"
         android:textSize="36dp"
-        android:fontFamily="@font/harry_potter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.900" />
+        app:layout_constraintVertical_bias="0.862" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

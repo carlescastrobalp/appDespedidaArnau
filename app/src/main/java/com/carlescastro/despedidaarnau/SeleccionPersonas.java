@@ -1,9 +1,15 @@
 package com.carlescastro.despedidaarnau;
 
+import static android.view.View.INVISIBLE;
+import static android.view.View.VISIBLE;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.Button;
+import android.widget.GridLayout;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +18,9 @@ public class SeleccionPersonas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal);
+
+        ImageView imgGente = findViewById(R.id.imatgeGent);
+        imgGente.setVisibility(INVISIBLE);
 
         Button botonArnau = findViewById(R.id.btnArnau);
         Button botonRibas = findViewById(R.id.btnRibas);
@@ -46,10 +55,45 @@ public class SeleccionPersonas extends AppCompatActivity {
         editor.putString("nombrePersona", nombrePersona);
         editor.apply();
 
-        // Guardar el nombre de la persona y llevar al siguiente layout (contraseña)
-        Intent intent = new Intent(SeleccionPersonas.this, Contrasenya.class);
-        intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre seleccionado
-        startActivity(intent);
-        finish();
+        //Selector de la imagen de la persona
+        GridLayout gridLayout = findViewById(R.id.gridlayout);
+        gridLayout.setVisibility(INVISIBLE);
+        gridLayout.setEnabled(false);
+        ImageView imgGente = findViewById(R.id.imatgeGent);
+        imgGente.setVisibility(VISIBLE);
+
+
+        if (nombrePersona.equals("Arnau")){
+            imgGente.setImageResource(R.drawable.arnau2);
+        } else if (nombrePersona.equals("Ribas")) {
+            imgGente.setImageResource(R.drawable.ribas_selector);
+        } else if (nombrePersona.equals("Eli")) {
+            imgGente.setImageResource(R.drawable.eli_selector);
+        } else if (nombrePersona.equals("Oriol")) {
+            imgGente.setImageResource(R.drawable.oriol_selector);
+        } else if (nombrePersona.equals("Marc")) {
+            imgGente.setImageResource(R.drawable.marc_selector);
+        } else if (nombrePersona.equals("Ivan")) {
+            imgGente.setImageResource(R.drawable.ivan_selector2);
+        } else if (nombrePersona.equals("Karen")) {
+            imgGente.setImageResource(R.drawable.karen_selector1);
+        } else if (nombrePersona.equals("Roger")) {
+            imgGente.setImageResource(R.drawable.roger_selector);
+        } else if (nombrePersona.equals("Laura")) {
+            imgGente.setImageResource(R.drawable.ivan_selector1);
+        } else if (nombrePersona.equals("Carles")) {
+            imgGente.setImageResource(R.drawable.carles_selector);
+        }
+
+        new Handler().postDelayed(new Runnable(){
+            @Override
+            public void run() {
+                // Guardar el nombre de la persona y llevar al siguiente layout (contraseña)
+                Intent intent = new Intent(SeleccionPersonas.this, Contrasenya.class);
+                intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre seleccionado
+                startActivity(intent);
+                finish();
+            }
+        }, 1500);
     }
 }

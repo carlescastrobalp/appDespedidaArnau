@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fondoPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,19 +9,19 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="400dp"
+        android:layout_height="480dp"
+        android:src="@drawable/ravenclaw"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.260" />
 
     <TextView
         android:id="@+id/pantalla2"
-        android:layout_width="370dp"
-        android:layout_height="620dp"
+        android:layout_width="396dp"
+        android:layout_height="681dp"
         android:fontFamily="@font/letter"
         android:text="@string/instruccions"
         android:textColor="#F6E2B3"
@@ -32,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.350" />
+        app:layout_constraintVertical_bias="0.424" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_insert"

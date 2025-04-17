@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo_main1">
 
     <ImageView
-        android:id="@+id/logo"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:id="@+id/imatgeGent"
+        android:layout_width="400dp"
+        android:layout_height="480dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.500" />
 
-    <TextView
+    <!-- <TextView
         android:id="@+id/Titol1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,9 +36,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.15" /> -->
 
     <GridLayout
+        android:id="@+id/gridlayout"
         android:layout_width="415dp"
         android:layout_height="490dp"
         android:columnCount="3"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.750">
+        app:layout_constraintVertical_bias="0.700">
 
         <!-- Botones -->
         <Button
@@ -65,13 +65,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnArnau"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Arnau"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -91,109 +96,154 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRibas"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Ribas"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnEli"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Eli"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnOriol"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Oriol"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnMarc"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Marc"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnIvan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Ivan"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnKaren"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Karen"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRoger"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Roger"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnLaura"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Laura"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnCarles"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/logica_button"
+            android:fontFamily="@font/harry_potter"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="Carles"
+            android:textColor="#F6E2B3"
+            android:textSize="36sp"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -1,6 +1,7 @@
 package com.carlescastro.despedidaarnau;
 
 import static android.view.View.INVISIBLE;
+import static android.view.View.VISIBLE;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,19 +26,27 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnMain = findViewById(R.id.btn_instrucciones);
         ImageView miImagen = findViewById(R.id.imatgePrincipal);
-        View fondoPrincipal = findViewById(R.id.fondoPrincipal);
 
+        btnMain.setEnabled(false);
+        btnMain.setVisibility(INVISIBLE);
+
+        new Handler().postDelayed(new Runnable(){
+            @Override
+            public void run() {
+                btnMain.setEnabled(true);
+                btnMain.setVisibility(VISIBLE);
+            }
+        }, 3000);
 
         btnMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                miImagen.setVisibility(INVISIBLE);
                 btnMain.setEnabled(false);
                 btnMain.setVisibility(INVISIBLE);
 
                 // Cambia el fondo del layout principal
-                fondoPrincipal.setBackgroundResource(R.drawable.button_ivan); // tu imagen en drawable
+                miImagen.setImageResource(R.drawable.arnau1); // tu imagen en drawable
 
                 new Handler().postDelayed(new Runnable(){
                     @Override
@@ -46,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intentLayoutInstruccion);
                         finish();
                     }
-                }, 500);
+                }, 900);
             }
         });
     }
