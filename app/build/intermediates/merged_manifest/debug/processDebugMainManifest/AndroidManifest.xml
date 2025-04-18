@@ -58,6 +58,10 @@
             android:name="com.carlescastro.despedidaarnau.InsertarBaseDatos"
             android:exported="true" />
         <activity
+            android:name="com.carlescastro.despedidaarnau.pantallaTCT"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.carlescastro.despedidaarnau.Listado"
             android:exported="true" />
         <activity

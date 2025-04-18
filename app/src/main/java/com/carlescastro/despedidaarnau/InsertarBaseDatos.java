@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +26,7 @@ public class InsertarBaseDatos extends AppCompatActivity {
     private EditText editTextDescripcion;
     private Button btnEnviar, btnVerListado;
     private Spinner seleccionGente;
+    private TextView eligeVictima;
     private DatabaseReference dataBaseFireStore;
 
     @Override
@@ -38,12 +40,15 @@ public class InsertarBaseDatos extends AppCompatActivity {
         boolean modeTCT = sharedPreferences.getBoolean("mode", false);
 
         seleccionGente = findViewById(R.id.spinnerPersonal);
+        eligeVictima = findViewById(R.id.eligeVictima);
 
         if (!modeTCT) {
             // Inicializar Firebase
             dataBaseFireStore = FirebaseDatabase.getInstance().getReference("arnau");
             seleccionGente.setEnabled(false);
             seleccionGente.setVisibility(INVISIBLE);
+            eligeVictima.setEnabled(false);
+            eligeVictima.setVisibility(INVISIBLE);
         } else {
             dataBaseFireStore = FirebaseDatabase.getInstance().getReference("todos-contra-todos");
         }

@@ -103,7 +103,7 @@ public class Contrasenya extends AppCompatActivity {
                 finish();
             } else if(contrasenaIngresada.equalsIgnoreCase(contrasenaCorrectaTCT)) {
                 // Contraseña correcta, redirigir al layout de insertar datos
-                Intent intent = new Intent(Contrasenya.this, InsertarBaseDatos.class);
+                Intent intent = new Intent(Contrasenya.this, pantallaTCT.class);
                 intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre de la persona
 
                 // Guardar el nombre en SharedPreferences

@@ -2,12 +2,8 @@ R_DEF: Internal format may change without notice
 local
 array gent
 color black
-color gray
-color green
 color ic_launcher_background
-color red
 color white
-color yellow
 drawable arnau1
 drawable arnau2
 drawable arnau3
@@ -22,6 +18,8 @@ drawable button_rechazar2
 drawable carles_selector
 drawable eli_selector
 drawable fondo_main1
+drawable gray
+drawable green
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ivan_selector1
@@ -31,13 +29,20 @@ drawable karen_selector2
 drawable logica_button
 drawable logica_text_button
 drawable marc_selector
+drawable mode_activat_got
+drawable mode_got
+drawable nivel_gris
+drawable nivel_verde
 drawable oriol_selector
 drawable ravenclaw
+drawable red
 drawable ribas_selector
 drawable roger_selector
+drawable yellow
 font harry_potter
 font letter
 id Texte
+id activat_tct
 id btnAcceso
 id btnArnau
 id btnCarles
@@ -60,11 +65,13 @@ id btn_insert
 id btn_instrucciones
 id detalleDescripcion
 id editTextContrasena
+id eligeVictima
 id fondoPrincipal
 id gridlayout
 id imatgeGent
 id imatgePrincipal
 id logo
+id mode_tct
 id pantalla2
 id radioGroupNivel
 id radioGroupTipo
@@ -85,6 +92,7 @@ layout activity_instrucciones
 layout activity_listado
 layout activity_main
 layout activity_personal
+layout activity_tct
 layout disenio_linea_datos
 layout insertar_base_datos
 mipmap ic_launcher

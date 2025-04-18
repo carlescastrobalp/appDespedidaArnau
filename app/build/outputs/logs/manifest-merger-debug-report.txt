@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5aa67682f493867eb0a7dad3ceba0e25\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\45938a0fe79ea47787487b07631e4ac2\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -81,8 +81,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Equip E
 	xmlns:android
 		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:5:5-44:19
-INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:5:5-44:19
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:5:5-48:19
+INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:5:5-48:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\8c7890aa6d22cf979a9ea19f40e3ddc8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Equip Estudi\.gradle\caches\8.11.1\transforms\5aa67682f493867eb0a7dad3ceba0e25\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -199,18 +199,24 @@ ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\ma
 		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
 		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:35:19-52
-activity#com.carlescastro.despedidaarnau.Listado
-ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:38:9-39:38
+activity#com.carlescastro.despedidaarnau.pantallaTCT
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:38:9-40:20
 	android:exported
 		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:38:19-42
-activity#com.carlescastro.despedidaarnau.DetallesObjeto
-ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:41:9-42:38
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:38:19-46
+activity#com.carlescastro.despedidaarnau.Listado
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:42:9-43:38
 	android:exported
-		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:41:19-49
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:42:19-42
+activity#com.carlescastro.despedidaarnau.DetallesObjeto
+ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:45:9-46:38
+	android:exported
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml:45:19-49
 uses-sdk
 INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Equip Estudi\AndroidStudioProjects\DespedidaArnau\app\src\main\AndroidManifest.xml

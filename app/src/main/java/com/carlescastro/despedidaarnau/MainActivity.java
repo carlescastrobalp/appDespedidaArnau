@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 btnMain.setEnabled(true);
                 btnMain.setVisibility(VISIBLE);
             }
-        }, 3000);
+        }, 2000);
 
         btnMain.setOnClickListener(new View.OnClickListener() {
             @Override

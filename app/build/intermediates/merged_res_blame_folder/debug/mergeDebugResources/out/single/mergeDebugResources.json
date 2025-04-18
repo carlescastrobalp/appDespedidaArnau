@@ -12,6 +12,10 @@
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/button_rechazar1.png"
     },
     {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_nivel_gris.png.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/nivel_gris.png"
+    },
+    {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -60,6 +64,10 @@
         "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/insertar_base_datos.xml"
     },
     {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_mode_got.png.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/mode_got.png"
+    },
+    {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_button_completar2.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/button_completar2.png"
     },
@@ -88,6 +96,10 @@
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/karen_selector1.png"
     },
     {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_nivel_verde.png.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/nivel_verde.png"
+    },
+    {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_ravenclaw.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/ravenclaw.png"
     },
@@ -106,6 +118,10 @@
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_mode_activat_got.png.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/mode_activat_got.png"
     },
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
@@ -150,6 +166,10 @@
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_activity_tct.xml.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/activity_tct.xml"
     },
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_arnau1.png.flat",

@@ -13,12 +13,12 @@
         <item>Carles</item>
     </string-array>
     <color name="black">#FF000000</color>
-    <color name="gray">#aaaaaa</color>
-    <color name="green">#3ef735</color>
     <color name="ic_launcher_background">#000000</color>
-    <color name="red">#f73535</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="yellow">#f7f435</color>
+    <drawable name="gray">@drawable/nivel_gris</drawable>
+    <drawable name="green">@drawable/nivel_verde</drawable>
+    <drawable name="red">@drawable/carles_selector</drawable>
+    <drawable name="yellow">@drawable/carles_selector</drawable>
     <string name="app_name">Despedida Arnau</string>
     <string name="firebase_database_url" translatable="false">https://despedida-arnau-5e636-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">550147385775</string>

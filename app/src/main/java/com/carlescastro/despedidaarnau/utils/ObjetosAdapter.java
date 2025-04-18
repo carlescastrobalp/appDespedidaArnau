@@ -43,16 +43,16 @@ public class ObjetosAdapter extends RecyclerView.Adapter<ObjetosAdapter.ViewHold
         int colorId = 0;
         switch (todosLosDatosBBDD.getNivel()){
             case 0:
-                colorId = R.color.gray;
+                colorId = R.drawable.gray;
                 break;
             case 1:
-                colorId = R.color.green;
+                colorId = R.drawable.green;
                 break;
             case 2:
-                colorId = R.color.yellow;
+                colorId = R.drawable.yellow;
                 break;
             case 3:
-                colorId = R.color.red;
+                colorId = R.drawable.red;
                 break;
         }
 

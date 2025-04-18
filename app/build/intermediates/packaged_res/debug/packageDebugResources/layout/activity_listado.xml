@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_main1"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <!-- Botón Nuevas -->
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnNuevas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/logica_button"
+        android:fontFamily="@font/harry_potter"
         android:padding="12dp"
         android:text="Nuevas"
-        android:textColor="@color/black"
+        android:textColor="#F6E2B3"
+        android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.140"
@@ -34,13 +25,16 @@
         app:layout_constraintVertical_bias="0.110" />
 
     <!-- Botón Completadas -->
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnCompletadas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/logica_button"
+        android:fontFamily="@font/harry_potter"
         android:padding="12dp"
         android:text="Completadas"
-        android:textColor="@color/black"
+        android:textColor="#F6E2B3"
+        android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.500"
@@ -50,13 +44,16 @@
 
     <!-- Botón Rechazadas -->
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnRechazadas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/logica_button"
+        android:fontFamily="@font/harry_potter"
         android:padding="12dp"
         android:text="Rechazadas"
-        android:textColor="@color/black"
+        android:textColor="#F6E2B3"
+        android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.900"
@@ -72,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.900" />
+        app:layout_constraintVertical_bias="0.800" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
