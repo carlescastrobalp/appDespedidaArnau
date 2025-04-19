@@ -4,6 +4,7 @@ import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -19,6 +20,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    private MediaPlayer mediaPlayer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +32,16 @@ public class MainActivity extends AppCompatActivity {
 
         btnMain.setEnabled(false);
         btnMain.setVisibility(INVISIBLE);
+
+        // Reproducir audio al abrir la actividad
+        mediaPlayer = MediaPlayer.create(this, R.raw.audio_main); // Usa el archivo en res/raw/audio.mp3
+        mediaPlayer.start();
+
+        // Liberar recursos al terminar el audio
+        mediaPlayer.setOnCompletionListener(mp -> {
+            mp.release();
+            mediaPlayer = null;
+        });
 
         new Handler().postDelayed(new Runnable(){
             @Override
@@ -41,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
         btnMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (mediaPlayer != null) {
+                    mediaPlayer.stop();   // Detener la reproducción
+                    mediaPlayer.release(); // Liberar los recursos del MediaPlayer
+                    mediaPlayer = null;   // Evitar referencias nulas
+                }
 
                 btnMain.setEnabled(false);
                 btnMain.setVisibility(INVISIBLE);
@@ -58,5 +77,13 @@ public class MainActivity extends AppCompatActivity {
                 }, 900);
             }
         });
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.release(); // Liberar recursos del MediaPlayer
+            mediaPlayer = null;    // Evitar referencias inválidas
+        }
     }
 }

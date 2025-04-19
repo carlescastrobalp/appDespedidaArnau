@@ -4,6 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <drawable name="gray">@drawable/nivel_gris</drawable>
     <drawable name="green">@drawable/nivel_verde</drawable>
-    <drawable name="yellow">@drawable/carles_selector</drawable>
-    <drawable name="red">@drawable/carles_selector</drawable>
+    <drawable name="yellow">@drawable/nivel_amarillo</drawable>
+    <drawable name="red">@drawable/nivel_rojo</drawable>
 </resources>

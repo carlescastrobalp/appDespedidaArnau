@@ -2,6 +2,7 @@ package com.carlescastro.despedidaarnau;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -14,6 +15,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Contrasenya extends AppCompatActivity {
+
+    private MediaPlayer mediaPlayer;
+
     private EditText editTextContrasena;
     private Button btnContinuar;
     private String nombrePersona;
@@ -59,9 +63,26 @@ public class Contrasenya extends AppCompatActivity {
         btnContinuar = findViewById(R.id.btnAcceso);
 
         btnContinuar.setOnClickListener(v -> validarContrasena());
+
+        // Reproducir audio al abrir la actividad
+        mediaPlayer = MediaPlayer.create(this, R.raw.audio_contrasenya); // Usa el archivo en res/raw/audio.mp3
+        mediaPlayer.start();
+
+        // Liberar recursos al terminar el audio
+        mediaPlayer.setOnCompletionListener(mp -> {
+            mp.release();
+            mediaPlayer = null;
+        });
     }
 
     private void validarContrasena() {
+
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();   // Detener la reproducción
+            mediaPlayer.release(); // Liberar los recursos del MediaPlayer
+            mediaPlayer = null;   // Evitar referencias nulas
+        }
+
         String contrasenaIngresada = editTextContrasena.getText().toString().trim();
         if (TextUtils.isEmpty(contrasenaIngresada)) {
             Toast.makeText(this, "⚠️ Fica la contrasenya carallot", Toast.LENGTH_SHORT).show();
@@ -117,6 +138,14 @@ public class Contrasenya extends AppCompatActivity {
             }
         } else {
             Toast.makeText(this, "⚠️ Muy mal, t'has equivocat", Toast.LENGTH_SHORT).show();
+        }
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.release(); // Liberar recursos del MediaPlayer
+            mediaPlayer = null;    // Evitar referencias inválidas
         }
     }
 }

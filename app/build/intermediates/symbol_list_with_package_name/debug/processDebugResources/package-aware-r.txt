@@ -3157,7 +3157,9 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nivel_amarillo
 drawable nivel_gris
+drawable nivel_rojo
 drawable nivel_verde
 drawable notification_action_background
 drawable notification_bg
@@ -3180,6 +3182,7 @@ drawable roger_selector
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tu_nombre_imagen
 drawable yellow
 font harry_potter
 font letter
@@ -3599,6 +3602,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saps_com_et_dius
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3947,6 +3951,10 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw audio_contrasenya
+raw audio_instruccions
+raw audio_main
+raw audio_nom
 raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description

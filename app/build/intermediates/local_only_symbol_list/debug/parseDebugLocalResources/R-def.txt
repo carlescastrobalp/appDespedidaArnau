@@ -31,13 +31,16 @@ drawable logica_text_button
 drawable marc_selector
 drawable mode_activat_got
 drawable mode_got
+drawable nivel_amarillo
 drawable nivel_gris
+drawable nivel_rojo
 drawable nivel_verde
 drawable oriol_selector
 drawable ravenclaw
 drawable red
 drawable ribas_selector
 drawable roger_selector
+drawable tu_nombre_imagen
 drawable yellow
 font harry_potter
 font letter
@@ -81,6 +84,7 @@ id rbNivel3
 id rbPregunta
 id rbPrueba
 id recycleViewListado
+id saps_com_et_dius
 id spinnerPersonal
 id textDescripcion
 id textNivel
@@ -98,6 +102,10 @@ layout insertar_base_datos
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+raw audio_contrasenya
+raw audio_instruccions
+raw audio_main
+raw audio_nom
 string app_name
 string firebase_database_url
 string gcm_defaultSenderId

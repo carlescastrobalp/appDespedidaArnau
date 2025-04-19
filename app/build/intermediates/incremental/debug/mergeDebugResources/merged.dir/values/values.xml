@@ -1791,8 +1791,8 @@
     <item name="material_ic_keyboard_arrow_previous_black_24dp" type="drawable">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
-    <drawable name="red">@drawable/carles_selector</drawable>
-    <drawable name="yellow">@drawable/carles_selector</drawable>
+    <drawable name="red">@drawable/nivel_rojo</drawable>
+    <drawable name="yellow">@drawable/nivel_amarillo</drawable>
     <item name="accessibility_action_clickable_span" type="id"/>
     <item name="accessibility_custom_action_0" type="id"/>
     <item name="accessibility_custom_action_1" type="id"/>
@@ -2065,7 +2065,7 @@
         1. <b>Selecciona el teu nom</b> a la pantalla inicial.<br/><br/>
         2. <b>Introdueix la teva contrasenya personal</b> per accedir.<br/><br/>
         3. <b>Crea una nova entrada per putejar l\'Arnau</b> indicant si és una pregunta o prova, el nivell d\'intensitat i la descripció.<br/><br/>
-        4. <b>També pots consulta el llistat</b> i veure totes les putades anonimes
+        4. <b>També pots consulta el llistat</b> i veure totes les putades anonimes.
         ]]>
     </string>
     </string>

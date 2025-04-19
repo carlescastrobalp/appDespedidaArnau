@@ -5,6 +5,7 @@ import static android.view.View.VISIBLE;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Button;
@@ -14,6 +15,9 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SeleccionPersonas extends AppCompatActivity {
+
+    private MediaPlayer mediaPlayer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +48,15 @@ public class SeleccionPersonas extends AppCompatActivity {
         botonLaura.setOnClickListener(v -> seleccionarPersona("Laura"));
         botonCarles.setOnClickListener(v -> seleccionarPersona("Carles"));
 
+        // Reproducir audio al abrir la actividad
+        mediaPlayer = MediaPlayer.create(this, R.raw.audio_nom); // Usa el archivo en res/raw/audio.mp3
+        mediaPlayer.start();
 
+        // Liberar recursos al terminar el audio
+        mediaPlayer.setOnCompletionListener(mp -> {
+            mp.release();
+            mediaPlayer = null;
+        });
     }
 
     private void seleccionarPersona(String nombrePersona) {
@@ -61,6 +73,8 @@ public class SeleccionPersonas extends AppCompatActivity {
         gridLayout.setEnabled(false);
         ImageView imgGente = findViewById(R.id.imatgeGent);
         imgGente.setVisibility(VISIBLE);
+        ImageView saps_com_et_dius = findViewById(R.id.saps_com_et_dius);
+        saps_com_et_dius.setVisibility(INVISIBLE);
 
 
         if (nombrePersona.equals("Arnau")){
@@ -85,9 +99,16 @@ public class SeleccionPersonas extends AppCompatActivity {
             imgGente.setImageResource(R.drawable.carles_selector);
         }
 
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();   // Detener la reproducción
+            mediaPlayer.release(); // Liberar los recursos del MediaPlayer
+            mediaPlayer = null;   // Evitar referencias nulas
+        }
+
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
+
                 // Guardar el nombre de la persona y llevar al siguiente layout (contraseña)
                 Intent intent = new Intent(SeleccionPersonas.this, Contrasenya.class);
                 intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre seleccionado
@@ -95,5 +116,13 @@ public class SeleccionPersonas extends AppCompatActivity {
                 finish();
             }
         }, 1500);
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.release(); // Liberar recursos del MediaPlayer
+            mediaPlayer = null;    // Evitar referencias inválidas
+        }
     }
 }

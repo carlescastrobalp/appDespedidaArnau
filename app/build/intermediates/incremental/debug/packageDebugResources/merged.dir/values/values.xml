@@ -17,8 +17,8 @@
     <color name="white">#FFFFFFFF</color>
     <drawable name="gray">@drawable/nivel_gris</drawable>
     <drawable name="green">@drawable/nivel_verde</drawable>
-    <drawable name="red">@drawable/carles_selector</drawable>
-    <drawable name="yellow">@drawable/carles_selector</drawable>
+    <drawable name="red">@drawable/nivel_rojo</drawable>
+    <drawable name="yellow">@drawable/nivel_amarillo</drawable>
     <string name="app_name">Despedida Arnau</string>
     <string name="firebase_database_url" translatable="false">https://despedida-arnau-5e636-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="gcm_defaultSenderId" translatable="false">550147385775</string>
@@ -33,7 +33,7 @@
         1. <b>Selecciona el teu nom</b> a la pantalla inicial.<br/><br/>
         2. <b>Introdueix la teva contrasenya personal</b> per accedir.<br/><br/>
         3. <b>Crea una nova entrada per putejar l\'Arnau</b> indicant si és una pregunta o prova, el nivell d\'intensitat i la descripció.<br/><br/>
-        4. <b>També pots consulta el llistat</b> i veure totes les putades anonimes
+        4. <b>També pots consulta el llistat</b> i veure totes les putades anonimes.
         ]]>
     </string>
     </string>
