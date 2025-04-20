@@ -81,7 +81,7 @@ public class DetallesObjeto extends AppCompatActivity {
                 }
             });
 
-            textPreguntaOPrueba.setText(getIntent().getBooleanExtra("preguntaOPrueba", false) ? "Prueba" : "Pregunta");
+            textPreguntaOPrueba.setText(getIntent().getBooleanExtra("preguntaOPrueba", false) ? "Pregunta" : "Prova");
 
             //Valor segun el nivel
             if(getIntent().getIntExtra("nivel", 0) == 0){
