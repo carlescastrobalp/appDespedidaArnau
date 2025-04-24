@@ -37,7 +37,7 @@ public class ObjetosAdapter extends RecyclerView.Adapter<ObjetosAdapter.ViewHold
         TablaDTO todosLosDatosBBDD = listadoDatosBBDD.get(position);
 
         //Mostrar si es prueba o pregunta
-        holder.textPreguntaOPrueba.setText(todosLosDatosBBDD.isPreguntaOPrueba() ? "Pregunta" : "Prueba");
+        holder.textPreguntaOPrueba.setText(todosLosDatosBBDD.isPreguntaOPrueba() ? "Pregunta" : "Prova");
 
         //Cambiar el color del fondo de pantalla segun el nivel
         int colorId = 0;

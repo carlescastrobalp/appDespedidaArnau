@@ -81,17 +81,17 @@ public class DetallesObjeto extends AppCompatActivity {
                 }
             });
 
-            textPreguntaOPrueba.setText(getIntent().getBooleanExtra("preguntaOPrueba", false) ? "Pregunta" : "Prova");
+            textPreguntaOPrueba.setText(getIntent().getBooleanExtra("preguntaOPrueba", false) ? "Pregunta: siguis sincer pilluelo" : "Prova: espero que no hi hagi fluits pel mig");
 
             //Valor segun el nivel
             if(getIntent().getIntExtra("nivel", 0) == 0){
-                textNivel.setText("Nivell: No s'ha seleccionat la intensitat");
+                textNivel.setText("Nivell: Desconegut, un sabatot no ha seleccionat l'intensitat");
             } else if(getIntent().getIntExtra("nivel", 0) == 1){
-                textNivel.setText("Nivell: Suau, pots estar tranquil");
+                textNivel.setText("Nivell: Suau, pots estar tranquil, aquesta es fluixa");
             } else if(getIntent().getIntExtra("nivel", 0) == 2){
-                textNivel.setText("Nivell: Intensito, se fique la cosa interesant");
+                textNivel.setText("Nivell: Intensito, se fique la cosa interesant, l'Ivan s'ha tret la titola");
             } else if(getIntent().getIntExtra("nivel", 0) == 3){
-                textNivel.setText("Nivell: Extrem, mort asegurada");
+                textNivel.setText("Nivell: Extrem, mort letal asegurada");
             }
 
             textDescripcion.setText(getIntent().getStringExtra("descripcion"));
@@ -118,7 +118,7 @@ public class DetallesObjeto extends AppCompatActivity {
         if (objetoId != null) {
             databaseReference.child(objetoId).child("estado").setValue(nuevoEstado)
                     .addOnSuccessListener(aVoid -> {
-                        Toast.makeText(DetallesObjeto.this, "Resposta registrada", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DetallesObjeto.this, "No se que has apretat, pero s'ha registrat correctament", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(DetallesObjeto.this, Listado.class);
                         startActivity(intent);
                         finish(); // Cerrar la actividad después de actualizar

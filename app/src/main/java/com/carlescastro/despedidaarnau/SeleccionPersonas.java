@@ -11,6 +11,7 @@ import android.os.Handler;
 import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -73,7 +74,7 @@ public class SeleccionPersonas extends AppCompatActivity {
         gridLayout.setEnabled(false);
         ImageView imgGente = findViewById(R.id.imatgeGent);
         imgGente.setVisibility(VISIBLE);
-        ImageView saps_com_et_dius = findViewById(R.id.saps_com_et_dius);
+        TextView saps_com_et_dius = findViewById(R.id.saps_com_et_dius);
         saps_com_et_dius.setVisibility(INVISIBLE);
 
 

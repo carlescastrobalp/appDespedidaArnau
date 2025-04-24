@@ -78,12 +78,12 @@ public class InsertarBaseDatos extends AppCompatActivity {
 
                 // Validar entrada del usuario
                 if (valorDesmarcado == -1) {
-                    Toast.makeText(getApplicationContext(), "⚠️ Debes seleccionar Pregunta o Prueba", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "⚠️ Jambo!, tria pregunta o prova", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 if (TextUtils.isEmpty(descripcion)) {
-                    editTextDescripcion.setError("La descripción no puede estar vacía");
+                    editTextDescripcion.setError("Escriu algo rancio");
                 } else {
                     enviarDatosFireBase(personaSeleccionadaTCT, modeTCT);
                 }

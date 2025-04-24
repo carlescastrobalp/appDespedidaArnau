@@ -7,12 +7,12 @@
     android:background="@drawable/fondo_main1">
 
     <TextView
-        android:id="@+id/Texte"
+        android:id="@+id/introPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Introdueix la teva contrasenya"
+        android:text="Fica-la, i la contrasenya també"
         android:textColor="#F6E2B3"
-        android:textSize="30dp"
+        android:textSize="27dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/editTextContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Contrasenya"
+        android:hint="Tocat aquí i escriu-la"
         android:inputType="textPassword"
         android:textColorHint="#F6E2B3"
         android:textColor="#F6E2B3"

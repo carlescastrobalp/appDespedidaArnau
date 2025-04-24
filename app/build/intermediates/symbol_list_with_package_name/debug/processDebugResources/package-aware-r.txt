@@ -3200,7 +3200,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id Texte
 id above
 id accelerate
 id accessibility_action_clickable_span
@@ -3448,6 +3447,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id introPass
 id invisible
 id inward
 id italic

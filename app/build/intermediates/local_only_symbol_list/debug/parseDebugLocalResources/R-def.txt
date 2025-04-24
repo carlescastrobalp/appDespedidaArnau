@@ -44,7 +44,6 @@ drawable tu_nombre_imagen
 drawable yellow
 font harry_potter
 font letter
-id Texte
 id activat_tct
 id btnAcceso
 id btnArnau
@@ -73,6 +72,7 @@ id fondoPrincipal
 id gridlayout
 id imatgeGent
 id imatgePrincipal
+id introPass
 id logo
 id mode_tct
 id pantalla2

@@ -137,7 +137,7 @@ public class Contrasenya extends AppCompatActivity {
                 finish();
             }
         } else {
-            Toast.makeText(this, "⚠️ Muy mal, t'has equivocat", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "⚠️ Muy mal, t'has equivocat pringui", Toast.LENGTH_SHORT).show();
         }
     }
     @Override

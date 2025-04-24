@@ -6,16 +6,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/fondo_main1">
 
-    <ImageView
+    <TextView
         android:id="@+id/saps_com_et_dius"
-        android:layout_width="400dp"
-        android:layout_height="90dp"
-        android:src="@drawable/tu_nombre_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quin es el teu nom?"
+        android:textColor="#F6E2B3"
+        android:textSize="28dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.090" />
+        app:layout_constraintVertical_bias="0.160" />
 
     <ImageView
         android:id="@+id/imatgeGent"

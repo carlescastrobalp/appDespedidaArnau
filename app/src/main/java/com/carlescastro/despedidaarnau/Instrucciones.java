@@ -47,7 +47,7 @@ public class Instrucciones extends AppCompatActivity {
                 btnInsert.setEnabled(true);
                 btnInsert.setVisibility(VISIBLE);
             }
-        }, 6000);
+        }, 4000);
 
         TextView instruccionesTextView = findViewById(R.id.pantalla2);
         String instrucciones = getString(R.string.instruccions);
