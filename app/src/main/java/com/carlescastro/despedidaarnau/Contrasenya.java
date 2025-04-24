@@ -33,29 +33,29 @@ public class Contrasenya extends AppCompatActivity {
 
         // Inicializar mapa de contraseñas
         passPersona = new HashMap<>();
-        passPersona.put("Arnau", "arnau");
-        passPersona.put("Ribas", "ribas");
-        passPersona.put("Eli", "eli");
-        passPersona.put("Oriol", "oriol");
-        passPersona.put("Marc", "marc");
-        passPersona.put("Ivan", "ivan");
-        passPersona.put("Karen", "karen");
-        passPersona.put("Roger", "roger");
-        passPersona.put("Laura", "laura");
-        passPersona.put("Carles", "carles");
+        passPersona.put("Arnau", "mongeta");
+        passPersona.put("Ribas", "coliflor");
+        passPersona.put("Eli", "esparrec");
+        passPersona.put("Oriol", "espinac");
+        passPersona.put("Marc", "pastanaga");
+        passPersona.put("Ivan", "pedra");
+        passPersona.put("Karen", "carxofa");
+        passPersona.put("Roger", "api");
+        passPersona.put("Laura", "carbasso");
+        passPersona.put("Carles", "ratafia");
 
         // Inicializar mapa de contraseñas TCT
         passModeTCT = new HashMap<>();
-        passModeTCT.put("Arnau", "arnautct");
-        passModeTCT.put("Ribas", "ribastct");
-        passModeTCT.put("Eli", "elitct");
-        passModeTCT.put("Oriol", "orioltct");
-        passModeTCT.put("Marc", "marctct");
-        passModeTCT.put("Ivan", "ivantct");
-        passModeTCT.put("Karen", "karentct");
-        passModeTCT.put("Roger", "rogertct");
-        passModeTCT.put("Laura", "lauratct");
-        passModeTCT.put("Carles", "carlestct");
+        passModeTCT.put("Arnau", "mongetatct");
+        passModeTCT.put("Ribas", "coliflortct");
+        passModeTCT.put("Eli", "esparrectct");
+        passModeTCT.put("Oriol", "espinactct");
+        passModeTCT.put("Marc", "pastanagatct");
+        passModeTCT.put("Ivan", "pedratct");
+        passModeTCT.put("Karen", "carxofatct");
+        passModeTCT.put("Roger", "apitct");
+        passModeTCT.put("Laura", "carbassotct");
+        passModeTCT.put("Carles", "ratafiatct");
 
         // Añadir las demás contraseñas según los nombres
 
