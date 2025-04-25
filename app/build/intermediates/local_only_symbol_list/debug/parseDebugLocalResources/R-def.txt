@@ -26,6 +26,7 @@ drawable ivan_selector1
 drawable ivan_selector2
 drawable karen_selector1
 drawable karen_selector2
+drawable laura_selector
 drawable logica_button
 drawable logica_text_button
 drawable marc_selector
@@ -99,6 +100,7 @@ layout activity_personal
 layout activity_tct
 layout disenio_linea_datos
 layout insertar_base_datos
+layout spinner_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

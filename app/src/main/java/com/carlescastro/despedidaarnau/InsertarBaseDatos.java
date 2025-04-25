@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
@@ -40,6 +41,14 @@ public class InsertarBaseDatos extends AppCompatActivity {
         boolean modeTCT = sharedPreferences.getBoolean("mode", false);
 
         seleccionGente = findViewById(R.id.spinnerPersonal);
+        // Crear el adaptador utilizando un diseño XML personalizado
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(
+                this,
+                R.layout.spinner_item, // Diseño para el texto del Spinner
+                getResources().getStringArray(R.array.gent) // Opciones para el Spinner
+        );
+        // Asociar el adaptador al Spinner
+        seleccionGente.setAdapter(adapter);
         eligeVictima = findViewById(R.id.eligeVictima);
 
         if (!modeTCT) {

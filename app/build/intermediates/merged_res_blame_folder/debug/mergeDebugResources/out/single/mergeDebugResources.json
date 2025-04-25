@@ -152,6 +152,10 @@
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/arnau2.png"
     },
     {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_spinner_item.xml.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/spinner_item.xml"
+    },
+    {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_activity_detalles.xml.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/layout/activity_detalles.xml"
     },
@@ -254,6 +258,10 @@
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_laura_selector.png.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/laura_selector.png"
     },
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/xml_data_extraction_rules.xml.flat",
