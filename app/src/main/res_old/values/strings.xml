@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Despedida Arnau</string>
+    <string-array name="gent">
+        <item>Arnau</item>
+        <item>Ribas</item>
+        <item>Eli</item>
+        <item>Oriol</item>
+        <item>Marc</item>
+        <item>Ivan</item>
+        <item>Karen</item>
+        <item>Roger</item>
+        <item>Laura</item>
+        <item>Carles</item>
+    </string-array>
+</resources>

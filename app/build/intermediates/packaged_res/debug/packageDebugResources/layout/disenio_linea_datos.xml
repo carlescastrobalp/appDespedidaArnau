@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textPreguntaOPrueba"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:text="Pregunta/Prueba"
         android:textSize="20sp"
         android:textStyle="bold"

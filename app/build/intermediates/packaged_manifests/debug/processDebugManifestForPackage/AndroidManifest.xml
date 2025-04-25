@@ -38,12 +38,6 @@
         android:theme="@style/Theme.DespedidaArnau" >
         <activity
             android:name="com.carlescastro.despedidaarnau.MainActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.carlescastro.despedidaarnau.Instrucciones"
-            android:exported="true" />
-        <activity
-            android:name="com.carlescastro.despedidaarnau.SeleccionPersonas"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,11 +46,21 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.carlescastro.despedidaarnau.Instrucciones"
+            android:exported="true" />
+        <activity
+            android:name="com.carlescastro.despedidaarnau.SeleccionPersonas"
+            android:exported="true" />
+        <activity
             android:name="com.carlescastro.despedidaarnau.Contrasenya"
             android:exported="true" />
         <activity
             android:name="com.carlescastro.despedidaarnau.InsertarBaseDatos"
             android:exported="true" />
+        <activity
+            android:name="com.carlescastro.despedidaarnau.pantallaTCT"
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.carlescastro.despedidaarnau.Listado"
             android:exported="true" />

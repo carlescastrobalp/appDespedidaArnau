@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Despedida Arnau</string>
+
+    <string-array name="gent">
+        <item>Arnau</item>
+        <item>Ribas</item>
+        <item>Eli</item>
+        <item>Oriol</item>
+        <item>Marc</item>
+        <item>Ivan</item>
+        <item>Karen</item>
+        <item>Roger</item>
+        <item>Laura</item>
+        <item>Carles</item>
+    </string-array>
+
+    <string name="instruccions">
+        <string name="instrucciones">
+        <![CDATA[
+        Instruccions d\'ús:<br/><br/>
+        1. Selecciona el teu nom que et van ficar al neixe.<br/><br/>
+        2. Introdueix la teva contrasenya de merda que t\'han passat.<br/><br/>
+        3. Crea una nova entrada per putejar l\'Arnau indicant si és una pregunta o prova, el nivell d\'intensitat i la descripció.<br/><br/>
+        4. També pots consulta el llistat de les putades on podràs veure (amb una mica de sort) si li volen ficar coses dins del esfínter.
+        ]]>
+    </string>
+    </string>
 </resources>

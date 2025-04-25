@@ -12,16 +12,22 @@ public class TablaDTO {
 
     private String nombre;
 
+    private String nombreVictima;
+
+    private boolean mode;
+
     public TablaDTO() { //Constructor vacio necesario para FireStore
     }
 
-    public TablaDTO(String id, boolean preguntaOPrueba, int nivel, String descripcion, String nombre) {
+    public TablaDTO(String id, boolean preguntaOPrueba, int nivel, String descripcion, String nombre, String nombreVictima, boolean mode) {
         this.id = id;
         this.preguntaOPrueba = preguntaOPrueba;
         this.nivel = nivel;
         this.descripcion = descripcion;
         this.estado = 0;
         this.nombre = nombre;
+        this.nombreVictima = nombreVictima;
+        this.mode = mode;
     }
 
     public String getId() {
@@ -70,5 +76,21 @@ public class TablaDTO {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getNombreVictima() {
+        return nombreVictima;
+    }
+
+    public void setNombreVictima(String nombreVictima) {
+        this.nombreVictima = nombreVictima;
+    }
+
+    public boolean isMode() {
+        return mode;
+    }
+
+    public void setMode(boolean mode) {
+        this.mode = mode;
     }
 }
