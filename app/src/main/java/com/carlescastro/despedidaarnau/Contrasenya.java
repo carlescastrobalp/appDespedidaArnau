@@ -100,7 +100,7 @@ public class Contrasenya extends AppCompatActivity {
         }
 
         if (contrasenaIngresada.equalsIgnoreCase(contrasenaCorrecta) || contrasenaIngresada.equalsIgnoreCase(contrasenaCorrectaTCT)) {
-            if(contrasenaIngresada.equalsIgnoreCase("arnau") && !mode){
+            if(contrasenaIngresada.equalsIgnoreCase("mongeta") && !mode){
                 // Si es l'Arnau, vas directe a el llistat
                 Intent intent = new Intent(Contrasenya.this, Listado.class);
                 intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre de la persona
@@ -111,8 +111,8 @@ public class Contrasenya extends AppCompatActivity {
                 editor.apply();
                 startActivity(intent);
                 finish();
-            } else if (!contrasenaIngresada.equalsIgnoreCase("arnau") && contrasenaIngresada.equalsIgnoreCase(contrasenaCorrecta)){
-                // Si es l'Arnau, vas directe a el llistat
+            } else if (!contrasenaIngresada.equalsIgnoreCase("mongeta") && contrasenaIngresada.equalsIgnoreCase(contrasenaCorrecta)){
+                // Si no es l'Arnau va directe a la pantallade crear l'entrada
                 Intent intent = new Intent(Contrasenya.this, InsertarBaseDatos.class);
                 intent.putExtra("nombrePersona", nombrePersona); // Enviar el nombre de la persona
                 // Guardar el nombre en SharedPreferences

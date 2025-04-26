@@ -3017,10 +3017,10 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable arnau1
-drawable arnau2
 drawable arnau3
 drawable arnau_icon1
 drawable arnau_icon2
+drawable arnau_selector
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_main1

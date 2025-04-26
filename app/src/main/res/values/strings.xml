@@ -2,6 +2,7 @@
     <string name="app_name">Despedida Arnau</string>
 
     <string-array name="gent">
+        <item>----</item>
         <item>Arnau</item>
         <item>Ribas</item>
         <item>Eli</item>

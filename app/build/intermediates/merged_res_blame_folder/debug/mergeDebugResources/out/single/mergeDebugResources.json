@@ -108,6 +108,10 @@
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/karen_selector1.png"
     },
     {
+        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_arnau_selector.png.flat",
+        "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/arnau_selector.png"
+    },
+    {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_nivel_verde.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/nivel_verde.png"
     },
@@ -146,10 +150,6 @@
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_fondo_main1.png.flat",
         "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/fondo_main1.png"
-    },
-    {
-        "merged": "com.carlescastro.despedidaarnau.app-debug-38:/drawable_arnau2.png.flat",
-        "source": "com.carlescastro.despedidaarnau.app-main-40:/drawable/arnau2.png"
     },
     {
         "merged": "com.carlescastro.despedidaarnau.app-debug-38:/layout_spinner_item.xml.flat",

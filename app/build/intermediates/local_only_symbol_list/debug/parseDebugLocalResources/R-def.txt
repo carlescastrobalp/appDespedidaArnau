@@ -5,10 +5,10 @@ color black
 color ic_launcher_background
 color white
 drawable arnau1
-drawable arnau2
 drawable arnau3
 drawable arnau_icon1
 drawable arnau_icon2
+drawable arnau_selector
 drawable background_main1
 drawable background_main2
 drawable button_completar1

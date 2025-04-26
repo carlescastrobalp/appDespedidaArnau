@@ -3016,10 +3016,10 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f080075
 int drawable abc_textfield_search_material 0x7f080076
 int drawable abc_vector_test 0x7f080077
 int drawable arnau1 0x7f080078
-int drawable arnau2 0x7f080079
-int drawable arnau3 0x7f08007a
-int drawable arnau_icon1 0x7f08007b
-int drawable arnau_icon2 0x7f08007c
+int drawable arnau3 0x7f080079
+int drawable arnau_icon1 0x7f08007a
+int drawable arnau_icon2 0x7f08007b
+int drawable arnau_selector 0x7f08007c
 int drawable avd_hide_password 0x7f08007d
 int drawable avd_show_password 0x7f08007e
 int drawable background_main1 0x7f08007f

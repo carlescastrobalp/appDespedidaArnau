@@ -79,7 +79,7 @@ public class SeleccionPersonas extends AppCompatActivity {
 
 
         if (nombrePersona.equals("Arnau")){
-            imgGente.setImageResource(R.drawable.arnau2);
+            imgGente.setImageResource(R.drawable.arnau_selector);
         } else if (nombrePersona.equals("Ribas")) {
             imgGente.setImageResource(R.drawable.ribas_selector);
         } else if (nombrePersona.equals("Eli")) {
