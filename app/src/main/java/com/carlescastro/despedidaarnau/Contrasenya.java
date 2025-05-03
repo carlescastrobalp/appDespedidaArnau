@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.HashMap;
@@ -73,6 +74,20 @@ public class Contrasenya extends AppCompatActivity {
             mp.release();
             mediaPlayer = null;
         });
+
+        // Configurar el botón "Atrás"
+        OnBackPressedCallback callback = new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                // Redirigir a la pantalla de selección de persona
+                Intent intent = new Intent(Contrasenya.this, SeleccionPersonas.class);
+                startActivity(intent);
+                finish(); // Cerrar la actividad actual
+            }
+        };
+
+        getOnBackPressedDispatcher().addCallback(this, callback);
+
     }
 
     private void validarContrasena() {

@@ -13,6 +13,7 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SeleccionPersonas extends AppCompatActivity {
@@ -118,6 +119,7 @@ public class SeleccionPersonas extends AppCompatActivity {
             }
         }, 1500);
     }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
