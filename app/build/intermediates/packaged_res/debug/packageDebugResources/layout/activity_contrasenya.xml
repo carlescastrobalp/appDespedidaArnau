@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Fica-la, i la contrasenya també"
         android:textColor="#F6E2B3"
-        android:textSize="27dp"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

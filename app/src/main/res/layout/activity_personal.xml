@@ -54,15 +54,15 @@
 
     <GridLayout
         android:id="@+id/gridlayout"
-        android:layout_width="415dp"
-        android:layout_height="490dp"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
         android:columnCount="3"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.700">
+        app:layout_constraintVertical_bias="0.620">
 
         <!-- Botones -->
         <Button

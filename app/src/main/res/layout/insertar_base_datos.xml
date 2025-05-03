@@ -99,11 +99,13 @@
 
     <EditText
         android:id="@+id/textDescripcion"
-        android:layout_width="380dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Escriu aquí putero"
         android:textColorHint="#F6E2B3"
         android:textColor="#F6E2B3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.480"
@@ -149,7 +151,7 @@
         android:textColor="#F6E2B3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.520"
+        app:layout_constraintHorizontal_bias="0.570"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.520" />

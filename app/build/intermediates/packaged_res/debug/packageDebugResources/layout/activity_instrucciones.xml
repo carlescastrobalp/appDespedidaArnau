@@ -19,15 +19,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.260" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/pantalla2"
-        android:layout_width="396dp"
-        android:layout_height="681dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/letter"
         android:text="@string/instruccions"
         android:textColor="#F6E2B3"
         android:textSize="27dp"
         android:textStyle="bold"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="24sp"
+        android:autoSizeStepGranularity="2sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +51,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.900" />
+        app:layout_constraintVertical_bias="0.870" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
